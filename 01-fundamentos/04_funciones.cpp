@@ -4,7 +4,7 @@ using std::cout;
 using std::cin;
 
 int pedirNumeroPositivo(int num) {
-    while (!(num >= 0))
+    while (num <= 0)
     {
         cout <<"Numero invalido. Intentalo de nuevo: ";
         cin >> num;
